@@ -155,6 +155,7 @@ This project has been built with some of the following technologies:
 - [ ] SEO
 - [ ] Code generation support for more languages
   - [x] Rust
+  - [x] Zig
   - [x] Typescript
   - [ ] C# (Not an enum)
   - [ ] More?...

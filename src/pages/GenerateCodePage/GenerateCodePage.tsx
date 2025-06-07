@@ -6,6 +6,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import CPlusPlus from './CPlusPlus'
 import CSharpEnum from './CSharpEnum'
 import Rust from './Rust'
+import Zig from './Zig'
 import TypeScript from './TypeScript'
 import { useGameUrl } from '../../hooks'
 
@@ -36,6 +37,7 @@ function GenerateCodePage() {
             <TabList onChange={onTabChange}>
               <Tab label="C++" value="cpp" />
               <Tab label="Rust" value="rs" />
+              <Tab label="Zig" value="zig" />
               <Tab label="C# Enum" value="cs" />
               <Tab label="TS" value="ts" />
               <Tab label="SHV.NET" value="shvdn" />
@@ -50,6 +52,10 @@ function GenerateCodePage() {
 
             <TabPanel value="rs">
               <Rust />
+            </TabPanel>
+
+            <TabPanel value="zig">
+              <Zig />
             </TabPanel>
 
             <TabPanel value="cs">

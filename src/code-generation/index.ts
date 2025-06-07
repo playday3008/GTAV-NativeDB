@@ -13,3 +13,6 @@ export * from './RustCodeGenerator'
 
 export { default as TSCodeGenerator } from './TSCodeGenerator'
 export * from './TSCodeGenerator'
+
+export { default as ZigCodeGenerator } from './ZigCodeGenerator'
+export * from './ZigCodeGenerator'
